@@ -1,0 +1,84 @@
+.heading {
+  padding-bottom: 2rem;
+  text-align: center;
+  font-size: 3.5rem;
+  color: var(--black);
+}
+
+.heading span {
+  color: var(--carrot-color);
+}
+
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
+.card-box {
+  width: 90%;
+  border-bottom: var(--border);
+  border-width: 0.1rem;
+  padding: 1.5rem 2rem;
+  font-size: 1.6rem;
+  color: var(--black);
+  text-transform: none;
+  margin: 1rem 2rem;
+  position: relative;
+  overflow: hidden;
+  background: var(--light-bg);
+  border-radius: 5px;
+}
+
+.card-box .icons a {
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+  font-size: 2rem;
+  margin-top: 0.8rem;
+  background: var(--white);
+  color: var(--black);
+  text-align: center;
+}
+
+.card-box .icons a:hover {
+  color: var(--white);
+  background: var(--carrot-color);
+}
+
+.food-content {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.food-content h3 {
+  font-size: 2.2rem;
+  color: var(--black);
+  padding-bottom: 0.5rem;
+}
+
+.amount {
+  font-size: 2rem;
+  color: var(--carrot-color);
+}
+
+.food-image {
+  display: flex;
+  height: 35rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.food-image img {
+  height: 90%;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+}
+
+.food-image img:hover {
+  transform: scale(1.05);
+}

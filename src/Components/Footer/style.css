@@ -1,0 +1,42 @@
+footer .footer-details {
+  position: relative;
+  top: -2rem;
+}
+
+footer .share {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.share .btn i {
+  padding-right: 0.5rem;
+}
+
+footer .credit {
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem 1rem;
+  margin-top: 1.5rem;
+}
+
+.credit span {
+  color: var(--carrot-color);
+}
+
+.fa-facebook {
+  color: blue;
+}
+
+.fa-twitter {
+  color: turquoise;
+}
+
+.fa-instagram {
+  color: palevioletred;
+}
+
+.fa-linkedin {
+  color: navy;
+}

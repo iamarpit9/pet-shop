@@ -1,0 +1,50 @@
+.plans .title {
+  text-align: center;
+  color: var(--carrot-color);
+  font-size: 2rem;
+}
+
+.plans .card-box {
+  margin-bottom: 5rem;
+  box-shadow: var(--box-shadow);
+}
+
+.plans .day {
+  text-align: center;
+  color: var(--black);
+  font-size: 3.5rem;
+}
+
+.plans .icon {
+  text-align: center;
+  color: var(--carrot-color);
+  font-size: 5rem;
+  padding: 2rem 0;
+}
+
+.plans .list {
+  margin: 1rem 0;
+}
+
+.list p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  color: var(--light-color);
+  padding: 1rem 0;
+}
+
+.list span {
+  color: var(--carrot-color);
+}
+
+.plans .amount {
+  font-size: 4rem;
+  font-weight: bolder;
+  color: var(--black);
+}
+
+.plans .amount span {
+  font-size: 3rem;
+}

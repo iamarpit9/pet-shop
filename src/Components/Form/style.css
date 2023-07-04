@@ -1,0 +1,108 @@
+.login-form {
+  position: absolute;
+  top: 120%;
+  right: 2rem;
+  width: 35rem;
+  border-radius: 1rem;
+  background: var(--white);
+  box-shadow: var(--box-shadow);
+  padding: 2rem;
+  display: none;
+}
+
+.active {
+  display: block;
+  animation: fadeIn 0.4s linear;
+}
+
+@keyframes fadeIn {
+  0% {
+    transform: translateY(3rem);
+  }
+}
+
+.login-form h3 {
+  color: var(--black);
+  font-size: 2.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.login-form .box {
+  width: 100%;
+  border-bottom: var(--border);
+  border-width: 0.1rem;
+  padding: 1.5rem 0;
+  font-size: 1.6rem;
+  color: var(--black);
+  text-transform: none;
+  margin: 1rem 0;
+  display: flex;
+}
+
+.login-form .btn {
+  display: inline-block;
+  margin-top: 2rem;
+  background: none;
+  padding: 0.8rem 2.8rem;
+  border: var(--border);
+  border-width: 0.2rem;
+  border-radius: 5rem;
+  border-top-left-radius: 0;
+  cursor: pointer;
+  font-size: 1.7rem;
+  overflow: hidden;
+  z-index: 0;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+/* .login-form .btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: var(--black);
+  z-index: -1;
+  transition: 0.2s linear;
+  clip-path: circle(0% at 0% 5%);
+} */
+
+/* .login-form .btn:hover::before {
+  clip-path: circle(100%);
+} */
+
+.btn:hover {
+  background: var(--black);
+  color: var(--white);
+}
+
+.link {
+  margin-top: 2rem;
+  color: var(--carrot-color);
+  font-size: 1.4rem;
+  background: none;
+}
+
+.link:hover {
+  color: var(--black);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.errMsg {
+  position: relative;
+  color: red;
+  font-size: 1.5rem;
+  margin: 2rem 0 0 0;
+  text-align: center;
+  text-transform: none;
+}
+
+@media (max-width: 450) {
+  .login-form {
+    width: 90%;
+  }
+}

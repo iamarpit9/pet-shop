@@ -1,0 +1,71 @@
+.services .card-box {
+  background: var(--light-bg);
+  padding: 3rem;
+  text-align: center;
+  border-radius: 33% 67% 70% 30% / 30% 30% 70% 70%;
+  border: none;
+}
+
+.services .card-box:nth-child(even) {
+  border-radius: 79% 21% 81% 19% / 58% 93% 7% 42%;
+}
+
+.services .card-box:hover {
+  border-radius: 0;
+}
+
+.services .card-box i {
+  height: 6.5rem;
+  width: 6.5rem;
+  line-height: 6.5rem;
+  font-size: 3rem;
+  color: var(--white);
+  background: var(--carrot-color);
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+
+.services .card-box h3 {
+  font-size: 2.2rem;
+  color: var(--black);
+  padding: 1rem 0;
+}
+
+.btn {
+  position: relative;
+  display: inline-block;
+  color: var(--black);
+  margin-top: 2rem;
+  padding: 0.8rem 2.8rem;
+  border: var(--border);
+  border-color: var(--black);
+  border-width: 0.2rem;
+  border-radius: 5rem;
+  border-top-left-radius: 0;
+  cursor: pointer;
+  font-size: 1.7rem;
+  overflow: hidden;
+  z-index: 0;
+  text-align: center;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: var(--black);
+  z-index: -1;
+  transition: 0.2s linear;
+  clip-path: circle(0% at 0% 5%);
+}
+
+.btn:hover {
+  color: var(--white);
+}
+
+.btn:hover::before {
+  clip-path: circle(100%);
+}

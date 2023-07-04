@@ -1,0 +1,143 @@
+.contact .card-box {
+  text-align: center;
+  background: none;
+}
+
+.contact .card-box i {
+  height: 6.5rem;
+  width: 6.5rem;
+  line-height: 6.5rem;
+  font-size: 3rem;
+  color: var(--white);
+  background: var(--carrot-color);
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.contact .card-box i:hover {
+  transform: scale(1.1);
+}
+
+.contact .card-box h3 span {
+  text-align: center;
+  font-size: 2.2rem;
+  color: var(--carrot-color);
+  padding: 1rem 0;
+  text-transform: none;
+}
+
+.contact-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 5rem;
+  margin: 0 10rem;
+}
+
+.contact-details h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--carrot-color);
+}
+
+.contact form {
+  width: 42%;
+  border-radius: 1rem;
+  background: var(--white);
+  box-shadow: var(--box-shadow);
+  border: var(--border);
+  border-width: 0.2rem;
+  padding: 4rem;
+  text-align: center;
+}
+
+.contact form .box {
+  width: 80%;
+  border-bottom: var(--border);
+  border-width: 0.1rem;
+  font-size: 1.6rem;
+  color: var(--black);
+  text-transform: none;
+  padding: 1rem 0;
+  margin: 1rem 0;
+}
+
+.contact-details .btn {
+  width: fit-content;
+}
+
+.contact-details .details {
+  position: relative;
+  margin: 10rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.details div {
+  padding: 5rem 0;
+  border-bottom: var(--border);
+  border-width: 0.2rem;
+}
+
+.details h3 {
+  padding: 2rem;
+  font-size: 3rem;
+}
+
+.details h4 {
+  font-size: 2rem;
+  color: var(--light-color);
+}
+
+.details h4 i {
+  color: green;
+}
+
+@media (max-width: 991px) {
+  .contact-details {
+    padding: 5rem 0;
+  }
+
+  .details h3 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-details {
+    padding: 5rem 0;
+  }
+
+  .contact form {
+    width: 45%;
+    padding: 2rem;
+  }
+
+  .contact form .box {
+    font-size: 1.2rem;
+  }
+
+  .contact form .btn {
+    font-size: 1.2rem;
+  }
+
+  .details h3 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .contact-details {
+    padding: 5rem 0;
+  }
+
+  .contact form {
+    width: 110%;
+    padding: 2rem;
+  }
+
+  .details {
+    display: none;
+  }
+}
