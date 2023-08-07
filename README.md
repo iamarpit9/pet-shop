@@ -1,6 +1,6 @@
 # Live Link
 
-[https://pet-shop-app.netlify.app]
+https://pet-shop-app.netlify.app
 
 ![Alt text](/Screenshots/1.png?raw=true "Optional Title")
 ![Alt text](/Screenshots/2.png?raw=true "Optional Title")
